@@ -28,7 +28,7 @@ Machine learning is used when there is:
 - When you need to deal with huge number options and factors (Media sites rely on machine learning to shift through millions of options to give you song or movie recommendations.)
 
 ### Building a machine learning
-Building a ML system can involve different steps as shown in the figure below.
+Building a ML system can involve different steps as shown in the figure below [2].
 
 ![Types of ML Algorithms](./resources/img/ml_anatomy.png "Types of ML Algorithms")
 
