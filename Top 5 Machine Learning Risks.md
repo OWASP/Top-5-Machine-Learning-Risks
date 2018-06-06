@@ -28,7 +28,11 @@ Machine learning is used when there is:
 - When you need to deal with huge number options and factors (Media sites rely on machine learning to shift through millions of options to give you song or movie recommendations.)
 
 ### Building a machine learning
-Building a ML system can involve different steps as show in figure []. It consists of:
+Building a ML system can involve different steps as shown in the figure below.
+
+![Types of ML Algorithms](./resources/img/ml_anatomy.png "Types of ML Algorithms")
+
+It consists of:
 
 - Getting data: data is generally represented as row of columns (matrices), each column represents a feature (pixel representing an image, housing price characteristic,  …). Before data can be used, it has to be cleaned up and normalized.
 
@@ -40,7 +44,6 @@ Building a ML system can involve different steps as show in figure []. It consis
 
 - Machine learning algorithm can suffer from two common problems: (1) **high bias** (also known as *underfitting*) and (2) **high variance** (also known as *overfitting*). High bias correspond to a case where a trained model performs poorly over a training set, thus it will have a high error rate over a test data or unseen examples. While in the high variance case, the model overfits the training data but will fail to generalize over new data.
 
-![Types of ML Algorithms](./resources/img/ml_anatomy.png "Types of ML Algorithms") (Stevens et al., 2017)
 
 ### Types of Machine Learning Algorithms
 
