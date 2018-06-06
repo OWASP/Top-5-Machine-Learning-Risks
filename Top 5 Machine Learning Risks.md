@@ -222,15 +222,14 @@ Models stealing refers to stealing of deployed machine learning models. Stealing
 
 https://github.com/ftramer/Steal-ML
 
-
-### Defense Techniques
+## Defense Techniques
 Despite many adversarial attacks on ML, not many works have been done on defense techniques. There are some on going works but it is still an open challenge. Below are some defense techniques that have been shown:
 
-#### Data protection
+### Data protection
     
 apply what we already know in data protection and application protection techniques on machine learning systems
 
-#### Adversarial training
+### Adversarial training
 Adversarial training is the process of explicitly training a model on adversarial examples in order to make it more robust to attack or to reduce its test error on clean inputs.
 injecting adversarial examples into the training set (also called adversarial training) could increase robustness of neural networks to adversarial examples.
 -	Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks https://www.youtube.com/watch?v=oQr0gODUiZo 
@@ -244,8 +243,6 @@ An example of virtual faces found by the approach for a given client. The first 
 - Publish CVEs [2]
 
 ![Publish CVEs](./resources/img/ml_publish_cves.png "Publish CVEs")
-
-
 
 ## Reference
 [1] Kurakin, A., Brain, G., Goodfellow, I. J., & Bengio, S. (n.d.). ADVERSARIAL MACHINE LEARNING AT SCALE. Retrieved from https://arxiv.org/pdf/1611.01236.pdf
