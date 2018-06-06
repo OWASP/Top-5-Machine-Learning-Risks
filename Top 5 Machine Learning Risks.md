@@ -1,5 +1,6 @@
 # Machine learning and security 
-## Towards secure adoption of machine learning techniques
+
+Towards secure adoption of machine learning techniques
 
 ## Machine Learning Introduction
 
