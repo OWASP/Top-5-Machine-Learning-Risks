@@ -152,14 +152,12 @@ We see that the usage of ML flourishes in every domains and industries, neverthe
 
 In searching for exploitable bugs, the adversary does not pursue the usual goals of vulnerability exploitation, e.g., gaining control over remote hosts, achieving privilege escalation, escaping sandboxes, etc. Instead, the adversary’s goal is to corrupt the outputs of machine learning programs using silent failures.
 
-- Misprediction: in supervised learning let the algorithm generate different label than the desired one.
-    - Training phase: Poisoning of the classifier, 
-    - Testing phase: Evasion. 
+- Poisoning of the classifier training data 
+- Evasion/Adversarial setting
+- Code security flaws.
+- Explain"ability" of learning model.
+- Model stealing
 - Misclustering: in unsupervised learning this may cause inputs to be placed in different clusters.
-- Confidence reduction
-- Denial of service, causing the application to crash 
-- Code execution capabilities for the attacker. 
-- Most of machine learning algorithms are open source as a result attacker can have access to them easily, to discover how to run exploits
 
 ### Adversarial machine learning
 
@@ -229,9 +227,6 @@ https://github.com/ftramer/Steal-ML
 ## Defense Techniques
 Despite many adversarial attacks on ML, not many works have been done on defense techniques. There are some on going works but it is still an open challenge. Below are some defense techniques that have been shown:
 
-### Data protection
-    
-apply what we already know in data protection and application protection techniques on machine learning systems
 
 ### Adversarial training
 Adversarial training is the process of explicitly training a model on adversarial examples in order to make it more robust to attack or to reduce its test error on clean inputs.
@@ -244,9 +239,21 @@ An example of virtual faces found by the approach for a given client. The first 
 
 ![Super-Sparse Biometric Recognition](./resources/img/ml_defense_faces.png "Super-Sparse Biometric Recognition")
 
-- Publish CVEs [2]
 
-![Publish CVEs](./resources/img/ml_publish_cves.png "Publish CVEs")
+### Data protection
+    
+apply what we already know in data protection and application protection techniques on machine learning systems
+
+### Procedural 
+Use ML based authentication as second factor of authentication only
+Design a process to deal with false positives especailly for security decisions taken by ML based systems. 
+
+### Model Design
+select the ML model which can support audit requirements. for example, if there is need to know how the system reached to specific decision, then the model should be using decision trees instead of neural networks.
+
+### Security Scanning  
+
+![Publish CVEs [2]](./resources/img/ml_publish_cves.png "Publish CVEs")
 
 ## Reference
 [1] Kurakin, A., Brain, G., Goodfellow, I. J., & Bengio, S. (n.d.). ADVERSARIAL MACHINE LEARNING AT SCALE. Retrieved from https://arxiv.org/pdf/1611.01236.pdf
